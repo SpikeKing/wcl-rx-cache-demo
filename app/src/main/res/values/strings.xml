@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">wcl-rx-cache-demo</string>
+    <string name="use_cache">使用缓存</string>
+    <string name="use_nocache">不使用缓存</string>
+</resources>
