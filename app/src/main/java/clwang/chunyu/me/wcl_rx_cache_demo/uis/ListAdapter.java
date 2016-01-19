@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import clwang.chunyu.me.wcl_rx_cache_demo.R;
-import clwang.chunyu.me.wcl_rx_cache_demo.networks.Repo;
+import clwang.chunyu.me.wcl_rx_cache_demo.data.Repo;
 
 /**
  * 适配器

@@ -18,7 +18,7 @@ import butterknife.ButterKnife;
 import clwang.chunyu.me.wcl_rx_cache_demo.R;
 import clwang.chunyu.me.wcl_rx_cache_demo.RcApplication;
 import clwang.chunyu.me.wcl_rx_cache_demo.networks.GitHubClient;
-import clwang.chunyu.me.wcl_rx_cache_demo.networks.Repo;
+import clwang.chunyu.me.wcl_rx_cache_demo.data.Repo;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
@@ -54,6 +54,7 @@ public class NocacheActivity extends Activity {
     @Override protected void onResume() {
         super.onResume();
 
+        // 延迟3秒, 模拟效果
         mGitHubClient.getRepos("SpikeKing")
                 .delay(3, TimeUnit.SECONDS)
                 .subscribeOn(Schedulers.io())

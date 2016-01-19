@@ -15,7 +15,7 @@
  *
  */
 
-package clwang.chunyu.me.wcl_rx_cache_demo.networks;
+package clwang.chunyu.me.wcl_rx_cache_demo.data;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -69,7 +69,6 @@ public class Repo {
 
     private String id;
     private String name;
-    @SerializedName("full_name") private String fullName;
     private Owner owner;
     private String description;
 
@@ -81,10 +80,10 @@ public class Repo {
         this.description = description;
     }
 
-    public Repo(String id, String name, String fullName, Owner owner) {
+    public Repo(String id, String name, String description, Owner owner) {
         this.id = id;
         this.name = name;
-        this.fullName = fullName;
+        this.description = description;
         this.owner = owner;
     }
 
@@ -102,14 +101,6 @@ public class Repo {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getFullName() {
-        return fullName;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
     }
 
     public Owner getOwner() {

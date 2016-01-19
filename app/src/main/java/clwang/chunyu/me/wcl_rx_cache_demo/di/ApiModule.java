@@ -4,6 +4,7 @@ import android.app.Application;
 
 import javax.inject.Singleton;
 
+import clwang.chunyu.me.wcl_rx_cache_demo.data.ObservableRepoDb;
 import clwang.chunyu.me.wcl_rx_cache_demo.networks.GitHubClient;
 import dagger.Module;
 import dagger.Provides;
@@ -32,4 +33,7 @@ public class ApiModule {
         return new GitHubClient();
     }
 
+    @Provides ObservableRepoDb provideObservableRepoDb() {
+        return new ObservableRepoDb(mApplication);
+    }
 }

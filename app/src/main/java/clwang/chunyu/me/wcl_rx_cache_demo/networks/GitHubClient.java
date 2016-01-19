@@ -2,6 +2,7 @@ package clwang.chunyu.me.wcl_rx_cache_demo.networks;
 
 import java.util.ArrayList;
 
+import clwang.chunyu.me.wcl_rx_cache_demo.data.Repo;
 import retrofit.GsonConverterFactory;
 import retrofit.Retrofit;
 import retrofit.RxJavaCallAdapterFactory;
@@ -26,6 +27,6 @@ public class GitHubClient {
     }
 
     public Observable<ArrayList<Repo>> getRepos(String username) {
-        return mGitHubService.listRepos(username);
+        return mGitHubService.getRepos(username);
     }
 }
