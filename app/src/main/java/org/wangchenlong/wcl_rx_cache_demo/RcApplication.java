@@ -1,10 +1,10 @@
-package clwang.chunyu.me.wcl_rx_cache_demo;
+package org.wangchenlong.wcl_rx_cache_demo;
 
 import android.app.Application;
 
-import clwang.chunyu.me.wcl_rx_cache_demo.di.ApiComponent;
-import clwang.chunyu.me.wcl_rx_cache_demo.di.ApiModule;
-import clwang.chunyu.me.wcl_rx_cache_demo.di.DaggerApiComponent;
+import org.wangchenlong.wcl_rx_cache_demo.di.ApiComponent;
+import org.wangchenlong.wcl_rx_cache_demo.di.ApiModule;
+import org.wangchenlong.wcl_rx_cache_demo.di.DaggerApiComponent;
 
 /**
  * 应用

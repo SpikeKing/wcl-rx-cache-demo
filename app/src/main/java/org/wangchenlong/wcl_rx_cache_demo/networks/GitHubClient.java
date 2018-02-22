@@ -1,8 +1,8 @@
-package clwang.chunyu.me.wcl_rx_cache_demo.networks;
+package org.wangchenlong.wcl_rx_cache_demo.networks;
 
 import java.util.ArrayList;
 
-import clwang.chunyu.me.wcl_rx_cache_demo.data.Repo;
+import org.wangchenlong.wcl_rx_cache_demo.data.Repo;
 import retrofit.GsonConverterFactory;
 import retrofit.Retrofit;
 import retrofit.RxJavaCallAdapterFactory;

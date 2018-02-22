@@ -1,9 +1,9 @@
-package clwang.chunyu.me.wcl_rx_cache_demo.di;
+package org.wangchenlong.wcl_rx_cache_demo.di;
 
 import javax.inject.Singleton;
 
-import clwang.chunyu.me.wcl_rx_cache_demo.uis.CacheActivity;
-import clwang.chunyu.me.wcl_rx_cache_demo.uis.NocacheActivity;
+import org.wangchenlong.wcl_rx_cache_demo.uis.CacheActivity;
+import org.wangchenlong.wcl_rx_cache_demo.uis.NocacheActivity;
 import dagger.Component;
 
 /**

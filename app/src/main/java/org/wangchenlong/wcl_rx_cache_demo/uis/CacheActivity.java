@@ -1,4 +1,4 @@
-package clwang.chunyu.me.wcl_rx_cache_demo.uis;
+package org.wangchenlong.wcl_rx_cache_demo.uis;
 
 import android.app.Activity;
 import android.app.Application;
@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -16,13 +15,13 @@ import javax.inject.Inject;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import clwang.chunyu.me.wcl_rx_cache_demo.R;
-import clwang.chunyu.me.wcl_rx_cache_demo.RcApplication;
-import clwang.chunyu.me.wcl_rx_cache_demo.data.ObservableRepoDb;
-import clwang.chunyu.me.wcl_rx_cache_demo.data.Repo;
-import clwang.chunyu.me.wcl_rx_cache_demo.networks.GitHubClient;
-import clwang.chunyu.me.wcl_rx_cache_demo.networks.GitHubService;
-import rx.Observable;
+
+import org.wangchenlong.wcl_rx_cache_demo.R;
+import org.wangchenlong.wcl_rx_cache_demo.RcApplication;
+import org.wangchenlong.wcl_rx_cache_demo.data.ObservableRepoDb;
+import org.wangchenlong.wcl_rx_cache_demo.data.Repo;
+import org.wangchenlong.wcl_rx_cache_demo.networks.GitHubClient;
+
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 

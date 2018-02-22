@@ -1,11 +1,11 @@
-package clwang.chunyu.me.wcl_rx_cache_demo.di;
+package org.wangchenlong.wcl_rx_cache_demo.di;
 
 import android.app.Application;
 
 import javax.inject.Singleton;
 
-import clwang.chunyu.me.wcl_rx_cache_demo.data.ObservableRepoDb;
-import clwang.chunyu.me.wcl_rx_cache_demo.networks.GitHubClient;
+import org.wangchenlong.wcl_rx_cache_demo.data.ObservableRepoDb;
+import org.wangchenlong.wcl_rx_cache_demo.networks.GitHubClient;
 import dagger.Module;
 import dagger.Provides;
 

@@ -1,4 +1,4 @@
-package clwang.chunyu.me.wcl_rx_cache_demo;
+package org.wangchenlong.wcl_rx_cache_demo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

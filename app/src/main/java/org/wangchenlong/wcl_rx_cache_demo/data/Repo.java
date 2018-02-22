@@ -15,7 +15,7 @@
  *
  */
 
-package clwang.chunyu.me.wcl_rx_cache_demo.data;
+package org.wangchenlong.wcl_rx_cache_demo.data;
 
 import com.google.gson.annotations.SerializedName;
 

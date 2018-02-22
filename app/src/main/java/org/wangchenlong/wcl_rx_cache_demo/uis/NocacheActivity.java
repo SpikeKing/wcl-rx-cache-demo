@@ -1,4 +1,4 @@
-package clwang.chunyu.me.wcl_rx_cache_demo.uis;
+package org.wangchenlong.wcl_rx_cache_demo.uis;
 
 import android.app.Activity;
 import android.app.Application;
@@ -15,10 +15,12 @@ import javax.inject.Inject;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import clwang.chunyu.me.wcl_rx_cache_demo.R;
-import clwang.chunyu.me.wcl_rx_cache_demo.RcApplication;
-import clwang.chunyu.me.wcl_rx_cache_demo.networks.GitHubClient;
-import clwang.chunyu.me.wcl_rx_cache_demo.data.Repo;
+
+import org.wangchenlong.wcl_rx_cache_demo.R;
+import org.wangchenlong.wcl_rx_cache_demo.RcApplication;
+import org.wangchenlong.wcl_rx_cache_demo.networks.GitHubClient;
+import org.wangchenlong.wcl_rx_cache_demo.data.Repo;
+
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 

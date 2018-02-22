@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="clwang.chunyu.me.wcl_rx_cache_demo.MainActivity">
+    tools:context="org.wangchenlong.wcl_rx_cache_demo.MainActivity">
 
     <Button
         android:id="@+id/main_b_nocache"

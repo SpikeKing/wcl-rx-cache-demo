@@ -1,4 +1,4 @@
-package clwang.chunyu.me.wcl_rx_cache_demo.uis;
+package org.wangchenlong.wcl_rx_cache_demo.uis;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -10,8 +10,9 @@ import java.util.ArrayList;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import clwang.chunyu.me.wcl_rx_cache_demo.R;
-import clwang.chunyu.me.wcl_rx_cache_demo.data.Repo;
+
+import org.wangchenlong.wcl_rx_cache_demo.R;
+import org.wangchenlong.wcl_rx_cache_demo.data.Repo;
 
 /**
  * 适配器

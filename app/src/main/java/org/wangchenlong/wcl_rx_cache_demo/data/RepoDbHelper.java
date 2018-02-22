@@ -18,7 +18,7 @@
 /**********************************************************************************************************************************************************************
  * ***** AUTO GENERATED FILE BY ANDROID SQLITE HELPER SCRIPT BY FEDERICO PAOLINELLI. ANY CHANGE WILL BE WIPED OUT IF THE SCRIPT IS PROCESSED AGAIN. *******
  **********************************************************************************************************************************************************************/
-package clwang.chunyu.me.wcl_rx_cache_demo.data;
+package org.wangchenlong.wcl_rx_cache_demo.data;
 
 import android.content.ContentValues;
 import android.content.Context;
