@@ -31,7 +31,6 @@ import rx.schedulers.Schedulers;
  * Created by wangchenlong on 16/1/18.
  */
 public class CacheActivity extends Activity {
-
     @Bind(R.id.cache_rv_list) RecyclerView mRvList; // 列表
     @Bind(R.id.cache_srl_swipe) SwipeRefreshLayout mSrlSwipe; // 刷新
 
@@ -46,7 +45,6 @@ public class CacheActivity extends Activity {
         setContentView(R.layout.activity_cache);
         ButterKnife.bind(this);
 
-        // 注入类
         ((RcApplication) getApplication()).getApiComponent().inject(this);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(mApplication);

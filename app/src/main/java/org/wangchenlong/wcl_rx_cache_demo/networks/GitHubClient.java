@@ -14,7 +14,6 @@ import rx.Observable;
  * Created by wangchenlong on 16/1/18.
  */
 public class GitHubClient {
-
     private GitHubService mGitHubService;
 
     public GitHubClient() {

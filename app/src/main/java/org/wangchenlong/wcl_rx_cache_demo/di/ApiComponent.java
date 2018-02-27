@@ -11,8 +11,7 @@ import dagger.Component;
  * <p>
  * Created by wangchenlong on 16/1/18.
  */
-@Singleton
-@Component(modules = ApiModule.class)
+@Singleton @Component(modules = ApiModule.class)
 public interface ApiComponent {
     void inject(NocacheActivity activity);
 

@@ -9,7 +9,6 @@ import org.wangchenlong.wcl_rx_cache_demo.uis.CacheActivity;
 import org.wangchenlong.wcl_rx_cache_demo.uis.NocacheActivity;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

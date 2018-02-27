@@ -56,7 +56,7 @@ public class NocacheActivity extends Activity {
     @Override protected void onResume() {
         super.onResume();
 
-        // 延迟3秒, 模拟效果
+        // 延迟3秒, 模拟网络较差的效果
         mGitHubClient.getRepos("SpikeKing")
                 .delay(3, TimeUnit.SECONDS)
                 .subscribeOn(Schedulers.io())
